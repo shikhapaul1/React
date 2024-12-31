@@ -11,6 +11,9 @@ import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
+import StyleSheet from './components/StyleSheet';
+import Inline from './components/inline';
+import Form from './components/Form';
 
 
 function App() {
@@ -31,7 +34,10 @@ function App() {
       {/* <EventBind /> */}
       {/* <ParentComponent /> */}
       {/* <UserGreeting /> */}
-      <NameList />
+      {/* <NameList /> */}
+      {/* <StyleSheet primary={false}/> */}
+      {/* <Inline /> */}
+      <Form />
     </div>
   );
 }
