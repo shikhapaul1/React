@@ -17,6 +17,8 @@ import Form from './components/Form';
 import FragmentDemo from './components/FragementDemo';
 import Table from './components/Table';
 import RefsDemo from './components/RefsDemo';
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
 
 
 function App() {
@@ -43,7 +45,9 @@ function App() {
       {/* <Form /> */}
       {/* <FragmentDemo /> */}
       {/* <Table /> */}
-      <RefsDemo />
+      {/* <RefsDemo /> */}
+      {/* <ClickCounter /> */}
+      <HoverCounter />
     </div>
   );
 }
