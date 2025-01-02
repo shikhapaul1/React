@@ -14,6 +14,9 @@ import NameList from './components/NameList';
 import StyleSheet from './components/StyleSheet';
 import Inline from './components/inline';
 import Form from './components/Form';
+import FragmentDemo from './components/FragementDemo';
+import Table from './components/Table';
+import RefsDemo from './components/RefsDemo';
 
 
 function App() {
@@ -37,7 +40,10 @@ function App() {
       {/* <NameList /> */}
       {/* <StyleSheet primary={false}/> */}
       {/* <Inline /> */}
-      <Form />
+      {/* <Form /> */}
+      {/* <FragmentDemo /> */}
+      {/* <Table /> */}
+      <RefsDemo />
     </div>
   );
 }
